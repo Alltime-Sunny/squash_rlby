@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quantico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Squash RLBY champ</title>
+</head>
+<body class="enter_page_body">
+    <div class="header">
+        <p>Dive into it...</p>
+        <p class="fallen animate__animated animate__hinge">Chosen</p>
+    </div>
+    <div class="key_form">
+        <form action="" method="get">
+            <input type="password" id="key" maxlength="4" placeholder="Enter 4-digit key" oninput="key_input()">   
+        </form>
+        <script>
+            function key_input() {
+            if (document.getElementById("key").value==="4545") {document.getElementById("access_link").style.visibility="visible"
+            document.getElementById("key").style.visibility="hidden"}
+            }
+        </script>
+        <br>
+        <a id="access_link" class="animate__animated animate__zoomInUp" href="start_page.html">Go to the Crabs league!</a>    
+    </div>
+    
+
+</body>
+</html>

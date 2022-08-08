@@ -1,0 +1,99 @@
+/* enter page css */
+.enter_page_body {
+    margin: 0;
+    background: url("background_wallpaper_2.webp") no-repeat fixed;
+    background-size: cover;
+}
+.header {
+    padding-left:140px;
+    display: flex;
+    font-size: 4em;
+    color: yellow;
+    font-family: 'Quantico','Mouse Memoirs', sans-serif;
+}
+
+.animate__hinge {
+    animation-delay: 5s;
+    animation-duration: 10s;
+}
+
+.key_form {
+    padding-left: 140px;
+    color: yellow;
+    font-family: 'Quantico','Mouse Memoirs', sans-serif;
+}
+
+#key {
+    background-color: rgb(194, 196, 92);
+    width: 100px;
+    visibility: visible;
+}
+
+.animate__zoomInUp {
+    visibility: hidden;
+    font-size: 3em;
+    color: yellow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* start page css */
+.start_page_body {
+    margin: 0;
+    background: url("background_wallpaper_3.jpg") no-repeat fixed;
+    background-size: 100% 100%;
+    color: yellow;
+    font-family: 'Quantico','Mouse Memoirs', sans-serif;
+}
+.menu {
+    margin-bottom: 0;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    gap: 2em;
+    padding-bottom: 1em;
+    justify-content: flex-start;
+    border-bottom: 2px solid;
+
+}
+
+.admin_panel  {
+    margin-left: auto;
+    margin-right: 2em;
+    justify-content: flex-end;
+}
+
+h1 {
+    margin: 0.5em 40%
+}
+
+.events {
+    font-size: 1.3em;
+    margin-left: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 2px solid;
+}
+
+.competitors {
+    /* max-width: 1vw;
+    max-height: 1vh; */
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+            
+}
+
+img {
+    margin: 5%;
+    width: 200px ;
+    height: 200px;
+    border-radius: 10%;
+    border-bottom-right-radius: 50%;
+    border: 0.3em double yellow;
+    transition: all 0.7s;
+}
+
+img:hover {
+    background-color: yellow;
+    transform: skew(-20deg, 10deg);   
+}
