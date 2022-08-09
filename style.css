@@ -38,13 +38,13 @@
 }
 
 @media screen and (max-width:1024px) {
-    .header {font-size: 2em;}
-    .animate__zoomInUp {font-size: 2em;}
+    .header {font-size: 2.5em;}
+    .animate__zoomInUp {font-size: 2.5em;}
     }
             
     @media screen and (max-width:600px) {
-        .header {font-size: 1em;}
-        .animate__zoomInUp {font-size: 1em;}
+        .header {font-size: 1.5em;}
+        .animate__zoomInUp {font-size: 1.5em;}
     }
 
 /* start page css */
