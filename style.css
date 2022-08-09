@@ -19,12 +19,12 @@
 
 .key_form {
     padding-left: 140px;
-    color: yellow;
+    color: rgb(172, 172, 126);
     font-family: 'Quantico','Mouse Memoirs', sans-serif;
 }
 
 #key {
-    background-color: rgb(194, 196, 92);
+    background-color: rgb(172, 172, 126);
     width: 100px;
     visibility: visible;
 }
@@ -32,7 +32,7 @@
 .animate__zoomInUp {
     visibility: hidden;
     font-size: 3em;
-    color: yellow;
+    color: rgb(172, 172, 126);
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
@@ -41,7 +41,7 @@
     margin: 0;
     background: url("background_wallpaper_3.jpg") no-repeat fixed;
     background-size: 100% 100%;
-    color: yellow;
+    color: rgb(172, 172, 126);
     font-family: 'Quantico','Mouse Memoirs', sans-serif;
 }
 .menu {
@@ -89,11 +89,11 @@ img {
     height: 200px;
     border-radius: 10%;
     border-bottom-right-radius: 50%;
-    border: 0.3em double yellow;
+    border: 0.3em double rgb(172, 172, 126);
     transition: all 0.7s;
 }
 
 img:hover {
-    background-color: yellow;
+    background-color: rgb(172, 172, 126);
     transform: skew(-20deg, 10deg);   
 }
